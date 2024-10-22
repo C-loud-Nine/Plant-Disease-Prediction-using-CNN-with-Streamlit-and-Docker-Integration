@@ -1,0 +1,16 @@
+
+
+# Streamlit :
+
+1. streamlit run app/main.py
+
+
+
+# Docker
+
+1. cd app
+2. docker build -t plant-disease-prediction-image:v1.0 .
+3. docker run -p 8081:80 plant-disease-prediction-image:v1.0
+4. http://localhost:8081 ( For Windows )
+
+
